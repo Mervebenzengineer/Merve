@@ -1,0 +1,9 @@
+mat:80.0
+kim:60.0
+biyo:100.0
+fizik45:45.0
+muzik:23.0
+
+Ortalama:61.60
+En yuksek Not:100.0
+En Dusuk Not:23.0
