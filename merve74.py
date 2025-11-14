@@ -22,7 +22,7 @@ numara=input("Numara:")
 notu=int(input("Notu:"))
 yas=int(input("Yas:"))
 
-cursor.execute("INSERT INTO ogrenciler(isim,numara,notu,yas) VALUES (?,?,?,?)",(isim,numara,notu,yas))
+cursor.execute("INSERT INTO ogrenciler(isim,numara,notu,yas) VALUES (?,?,?,?)",(isim,numara,notu,yas)) #girilen bilgileri veritabanına ekler.
 
     
 

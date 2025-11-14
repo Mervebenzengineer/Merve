@@ -3,7 +3,7 @@ def sayi_al():
     while True:
         veri=input("Sayi girin(cikmak icin'q'):")
         if veri=="q":
-            print("Girdi islemi sona erdi\n")
+            print("Girdi islemi sona erdi.\n")
             break
         try:
             sayi=float(veri)
@@ -26,9 +26,9 @@ def analiz_et():
        return
    print("Sayi analizi:")
    print("Toplam:",toplam(sayilar))
-   print("Ortalama:",en_buyuk(sayilar))
+   print("Ortalama:",ortalama(sayilar))
    print("En buyuk:",en_buyuk(sayilar))
-   print("En kucun:",en_kucuk(sayilar))
+   print("En kucuK:",en_kucuk(sayilar))
 
 
 

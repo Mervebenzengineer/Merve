@@ -16,11 +16,15 @@
 def can():
     if sayi>0:
         print("Sayi pozitiftir")
+
     elif sayi<0:
         print("Sayi negatiftir")
+
     else:
         print("Sayi sifirdir")
+
 sayi=int(input("Sayi girin"))
+
 can()
 
 

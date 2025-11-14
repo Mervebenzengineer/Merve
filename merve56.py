@@ -1,6 +1,6 @@
 kitap_sozlugu={
     "kitap_adi1":"Sefiller",
-    "yazar1":"VHugo",
+    "yazar1":"V.Hugo",
     "yil1":"2025",
     "kitap_adi2":"Kole",
     "yazar2":"Merve",

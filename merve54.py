@@ -1,7 +1,8 @@
 dogru=input("Gecerli anahtar girin")
+
 anahtar={
         "proje":"MetanGazi",
-        "tubitak":"semiha",
+        "tubitak":"hem",
         "teknofest":"merve"
 }
 if dogru in anahtar:

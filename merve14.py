@@ -9,6 +9,7 @@ def bol(a,b):
 
 sayi1=float(input("Birinci sayiyi girin:"))
 sayi2=float(input("Ikinci sayiyi girin:"))
+
 print("Hangi islemi yapmak istersin?")
 print("1.Toplama:")
 print("2.Cikarma")

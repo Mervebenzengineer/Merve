@@ -5,8 +5,8 @@ import pandas as pd
 veri={
     "Ogrenci1":{"isim":"Merve","Not":90,"yas":23},
     "Ogrenci2":{"isim":"Veda","Not":89,"yas":45},
-    "Ogrenci3":{"isim":"can","Not":75,"yas"
-    :56}
+    "Ogrenci3":{"isim":"can","Not":75,"yas":56}
+    
 
 }
 df=pd.DataFrame(veri)

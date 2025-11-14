@@ -9,13 +9,15 @@ def sayi_al():
             sayi=float(veri)
             liste.append(sayi)
         except ValueError:
-            print("Yeniden Deneyiniz")
+            print("Yeniden Deneyiniz!")
     return liste
+
 sayilar=sayi_al()   
 print("Girilen sayilar:",sayilar)
+
 def pozitifleri_goster(sayilar):
     can=[x for x in sayilar if x>0]
-    print("Poztif sayilar",can)
+    print("Pozitif sayilar",can)
 
 def negatifleri_goster(sayilar):
     canan=[x for x in sayilar if x<0]

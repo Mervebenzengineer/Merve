@@ -24,23 +24,18 @@ pencere.geometry("500x300")
 
 
 dogru_kullanici_label=tk.Label(pencere,text="Kullanici Adi:")
-
 dogru_kullanici_label.pack()
 
 dogru_kullanici_entry=tk.Entry(pencere)
-
 dogru_kullanici_entry.pack()
 
 dogru_sifre_label=tk.Label(pencere,text="Sifre:")
-
 dogru_sifre_label.pack()
 
 dogru_sifre_entry=tk.Entry(pencere,show="*")
-
 dogru_sifre_entry.pack()
 
 kontrol_buton=tk.Button(pencere,text="Kontrol",command=kontrol_et)
-
 kontrol_buton.pack()
 
 pencere.mainloop()

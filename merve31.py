@@ -11,13 +11,16 @@ def sayilari_al():
          print("Gecerli sayi girin")
 
     return liste
+
 def analiz_et(sayilar):
     if not sayilar:
         print("Hic sayi girilmedi")
         return
+    
     pozitifler=[x for x in sayilar if x>0]
     negatifler=[x for x in   sayilar if x<0]
     mutlaklar=[abs(x) for x in negatifler]
+    
     print("Ortalama",sum(sayilar)/len(sayilar))
     print("En buyuk sayi:",max(sayilar))
     print("En kucuk sayi:",min(sayilar))

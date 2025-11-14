@@ -8,3 +8,4 @@ plt.title("Basit Cizgi Grafigi")
 plt.xlabel("X ekseni")
 plt.ylabel("Y Ekseni")
 plt.show()
+

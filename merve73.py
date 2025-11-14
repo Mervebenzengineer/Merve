@@ -33,6 +33,7 @@ def kaydet():
     
     else:
         sonuc_label.config(text="Lutfen tum alanlari doldurun!")
+        
 kaydet_buton=tk.Button(pencere,text="Kaydet",command=kaydet)
 kaydet_buton.pack()
 
@@ -62,7 +63,9 @@ def grafik_ciz():
     else:
         sonuc_label.config(text="Liste bos,once ogrenci ekleyin.")
 
+
 grafik_buton=tk.Button(pencere,text="Grafik Ciz",command=grafik_ciz)
+
 grafik_buton.pack()
 
 pencere.mainloop() #en son satir bu olmali 

@@ -7,6 +7,7 @@ merve={
 }
 df=pd.DataFrame(merve).T
 
+
 ortalama=df["not"].mean()
 print("Ortalama not",ortalama)
 

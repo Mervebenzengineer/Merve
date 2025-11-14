@@ -31,10 +31,10 @@ plt.xlabel("Ogrenciler")
 plt.ylabel("Ortalamalar")
 plt.ylim(0,100)
 plt.tight_layout()
-plt.savefig("notgrafigi_png")
+plt.savefig("notgrafigi.png")
 plt.show()
 
-with open("notgrafigi.png","r") as dosya:
+with open("notgrafigi.png","rb") as dosya:
     icerik=dosya.read()
     print(icerik)
     input("Cikmak icin entere basin")

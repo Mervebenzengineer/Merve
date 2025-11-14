@@ -1,10 +1,12 @@
-metin=input("Uzun bir cumle giriniz")
+metin = input("Uzun bir cümle giriniz: ")
 
-print("metin", metin.isalnum())
+# metnin tamamı alfanumerik mi kontrolü
+print("Metin alfanumerik mi:", metin.isalnum())
 
-temiz="".join(c.lower()for c in metin if c.isalnum)
-print("Temiz metin:",temiz)
+# sadece harf ve sayıları al, küçük harfe çevir
+temiz = "".join(c.lower() for c in metin if c.isalnum())
+print("Temiz metin:", temiz)
 
-ters="".join(temiz[::-1])
-print(ters)
-
+# tersine çevir
+ters = temiz[::-1]
+print("Ters:", ters)

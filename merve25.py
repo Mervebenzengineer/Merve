@@ -7,7 +7,6 @@
 
 
 for i in range(2,21,2):
-    print(i)
     if i%2==0:
         print(f"{i} sayisi ciftir")
 

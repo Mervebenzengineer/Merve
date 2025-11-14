@@ -4,6 +4,8 @@
  #    print(sayi)
 #     sayi+=2
 
+#tek sayi yazdirma
+
 baslangic=int(input("Sayi girin"))
 bitis=int(input("sayi girin"))
 sayi=baslangic

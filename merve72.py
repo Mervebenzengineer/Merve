@@ -17,7 +17,11 @@ def metni_cek():
     isim=isim_giris.get()
     sonuc_etiket.config(text=f"Merhaba,{isim}!")
 
+
 buton=tk.Button(pencere,text="Goster",command=lambda:metni_cek())
 buton.pack()
+
+#“Butona tıklanınca, metni_cek() fonksiyonunu çalıştır.”
+#Yani lambda burada tıklama olayını bir fonksiyon çağrısına bağlıyor.
 
 pencere.mainloop()

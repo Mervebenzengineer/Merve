@@ -6,6 +6,7 @@ veri={
 }
 df=pd.DataFrame(veri)
 print(df)
+
 #filtreleme
 print(df[df["Not"]>=85])#Notu 85 ve ustu olan ogrenciler
 print(df[df["Not"]>=85])& (df["Yas"]==23)

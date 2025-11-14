@@ -6,6 +6,7 @@ pencere=tk.Tk()
 pencere.title("Kullanci Bilgi Formu")
 pencere.geometry("300x200")
 
+# Etiket (Label) oluştur
 tk.Label(pencere,text="isim:").pack()
 isim_giris=tk.Entry(pencere)
 isim_giris.pack()

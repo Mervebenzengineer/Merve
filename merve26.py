@@ -8,6 +8,7 @@ while toplam<100:
    sayac+=1
    print(f"{sayac}.sayi:{sayi}")
    print(f"Toplam:{toplam}")
+   
 print(f"Oyun bitti!{sayac} adimda 100'u gectiniz.")
     
 

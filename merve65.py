@@ -8,8 +8,6 @@ veri={
 df=pd.DataFrame(veri)#excel dosyasi olusur.sozlukten tablo oluusur.
 print(df)
 
-df=pd.DataFrame(veri)
-
 ortalama=df["not"].mean()#df["not"] notlari alir .mean ort alir.
 df["ortalama"]=ortalama*len(df)
 
